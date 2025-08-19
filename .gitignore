@@ -1,17 +1,35 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+# Compiled source #
+*.class
+*.dll
+target/
+generated/
+generated-sources/
+classes/
+spring-config/
+
+# Packages/Libs #
+*.jar
+*.war
+*.ear
+
+# IDE #
+*.iml
 .classpath
+.project
+.idea/
+.settings/
+.springBeans
+
+# Exclude
+*.csv
+*.log
+*.versionsBackup
+
+# ElasticSearch data dirs
+data/
+
+#Exclude the ng_modules
+**/.node_modules_global/
+**/node_modules/
+npm-debug.log.*
