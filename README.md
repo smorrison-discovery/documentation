@@ -7,3 +7,5 @@ This project focuses on designing and implementing a system to generate C4 model
 * !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 * !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 * !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+* !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+* !define BASE https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/main/icons
