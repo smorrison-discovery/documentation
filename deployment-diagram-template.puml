@@ -6,6 +6,7 @@
 !include BASE/devicons2/docker.puml
 !include BASE/material/computer.puml
 !include BASE/devicons2/postgresql.puml
+!include BASE/devicons2/angular.puml
 
 AddElementTag("namespace", $bgColor=$ELEMENT_FONT_COLOR, $fontColor="#335DA5", $shape=EightSidedShape(), $legendText="backend container\neight sided")
 AddElementTag("pod", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#335DA5", $shape=EightSidedShape(), $legendText="backend container\neight sided")
